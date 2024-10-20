@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@1,300&display=swap');
+:root {
+    --main-bg-color: #2874f0;
+  }
+  *{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: var(--main-bg-color);
+    font-family: 'Noto Sans', sans-serif;
+}
+nav{
+    display: flex;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    width: 88px;
+    padding: 0 25px;
+}
+nav ul{
+    height: 58px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    padding: 0 23px;
+}
+nav ul li a:hover{
+font-weight: bolder;
+}
+.search{
+    display: flex;
+    align-items: center;
+}
+.search input{
+    width: 30vw;
+    height: 23px;
+    border-radius: 5px;
+    margin: 0px 15px 0px 55px;
+    padding: 0px 10px;
+}
+.search button{
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: bolder;
+}
+.container{
+    min-height: calc(100vh - 58px - 12vh);
+}
+.slider{
+    width: 80vw;
+    margin: 12px auto;
+    /* display: flex;
+    justify-content: center;
+    margin: 10px auto; */
+    overflow: hidden;
+}
+.card{
+    max-width: 90vw;
+    margin: 22px auto;
+    font-family: 'Noto Sans', sans-serif;
+}
+.cards{
+    display: flex;
+    overflow: hidden;
+    margin-left: 35px;
+}
+.card-item{
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 15px;
+}
+
+.card-item img{
+    height: 160px;
+    width: 160px;
+}
+
+footer{
+    height: 12vh;
+    background-color: var(--main-bg-color);
+    color: white;
+    font-family: 'Noto Sans', sans-serif;
+}
